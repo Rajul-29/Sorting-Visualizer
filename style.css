@@ -13,6 +13,7 @@ nav {
   display: flex;
   flex-direction: row;
   padding: 0% 5%;
+  width: 90%;
 }
 
 nav .array-inputs {
@@ -81,6 +82,7 @@ nav .header_right {
   background-color: #1b1b1b;
   color: rgb(187, 213, 238);
   cursor: default;
+  width: 99.5%;
 }
 
 nav .header_right .algos {
@@ -108,6 +110,7 @@ nav .header_right .algos button {
 
 nav .header_right .algos button:hover {
   background-color: rgb(197, 75, 75);
+  border-radius: 10px;
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
@@ -134,7 +137,7 @@ nav .header_right .algos .butt_selected:hover {
 }
 
 nav .header_right .algos .butt_unselected:hover {
-  background-color: rgb(122, 218, 151);
+  background-color: rgb(197, 75, 75);
   cursor: pointer;
   border-radius: 10px;
 }
@@ -162,28 +165,10 @@ section #Info_Cont1 {
   height: 50vh;
 }
 
-section #Info_Cont2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 50vh;
-}
-
 .a_container {
   display: flex;
   justify-content: center;
   justify-items: center;
-}
-
-.bottom-container {
-  background-color: #222;
-  bottom: 0;
-  color: rgb(255, 255, 255);
-  padding: 1%;
-  position: fixed;
-  text-align: center;
-  width: 100%;
 }
 
 .hide {
